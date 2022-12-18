@@ -1,0 +1,23 @@
+.myModal {
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: rgba(109, 98, 115, 0.811);
+    border: 3px solid rgb(238, 232, 242); 
+    box-shadow: 5px 5px 5px 5px rgba(238, 231, 231, 0.5);
+}
+.myModalContent{
+    padding: 30px;
+    margin: 35px;
+    background: rgba(89, 87, 87, 0.574);
+    border: rgba(233, 225, 237, 0.299);
+    width: 600px;
+    border: 2px solid rgb(226, 220, 230); 
+}
+

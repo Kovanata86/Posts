@@ -1,0 +1,39 @@
+.post  {
+ 
+  overflow-y: auto;
+  overflow-x: hidden; 
+  max-height: 100vh;
+  }
+  /* .remove-btn {
+    margin-right: 0.5rem;
+  }
+  
+  .post-enter {
+    transform: translateX(-350px);
+  }
+  .post-enter-active {
+    transform: translateX(0px);
+    transition: all 500ms ease-in;
+  }
+  .post-exit {
+    opacity: 1;
+  }
+  .post-exit-active {
+    transform: translateX(-350px);
+    transition: all 500ms ease-in;
+  }   */
+  ::-webkit-scrollbar {
+    height: 10px;
+    width: 9px;
+  }
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-track {
+    background:   rgb(109, 98, 115);
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb,
+  ::-webkit-scrollbar-thumb {
+    background-color:  rgb(109, 98, 115);
+    border-radius: 5px;
+    border: 4px solid  rgb(232, 231, 237);
+  } 
